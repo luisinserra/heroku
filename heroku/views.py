@@ -8,7 +8,7 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 
 def index(request):
-    return HttpResponse("Alô Mundo!. Este é o index de Heroku.")
+    return HttpResponse("Alô Mundo!. Este é o index de Heroku!.")
 
 class CategoriasView(generics.ListCreateAPIView):
     model = HkCategorias
